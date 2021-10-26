@@ -32,3 +32,29 @@ header a {
     font-size: 32px;
     font-weight: 700;
 }
+
+main {
+    width: 800px;
+    background-color: #ffffff;
+    padding-left: 32px;
+    margin: 40px auto;
+}
+
+main nav a {
+    color: #d1d6da;
+    font-size: 13px;
+    line-height: 80px;
+    margin-left: 4px;
+}
+
+main nav a span {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #d1d6da;
+}
+
+span.select {
+    color: #ffffff;
+    border: none;
+    background-color: #45abea;
+}
