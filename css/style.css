@@ -38,6 +38,11 @@ main {
     background-color: #ffffff;
     padding-left: 32px;
     margin: 40px auto;
+    
+}
+
+nav {
+    border-bottom: 1px solid #d1d6da;
 }
 
 main nav a {
@@ -58,3 +63,35 @@ span.select {
     border: none;
     background-color: #45abea;
 }
+
+section ul {
+    padding: 32px 32px;
+}
+
+section ul li {
+    list-style: none;
+    list-style-position: inside;
+    line-height: 42px;
+}
+
+section ul li span.label {
+    margin: 4px;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+/* label colors */
+.blue {background-color:#3babe9;}
+.green {background-color:#5dc0a9;}
+.purple {background-color:#c9b0ee;}
+.orange {background-color: #f59e36;}
+/* label colors */
+
+span.done {
+    margin: 0 8px;
+    padding: 2px;
+    border-radius: 50%;
+    color: green;
+    border:1px solid green;    
+}
+
