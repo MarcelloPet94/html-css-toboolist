@@ -73,6 +73,7 @@ section ul {
 .scroll::before {
     content:"\25BE";
     font-size: 24px;
+    vertical-align: middle;
 }
 
 section ul li {
