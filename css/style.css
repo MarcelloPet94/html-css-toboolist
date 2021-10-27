@@ -64,11 +64,15 @@ span.select {
     background-color: #45abea;
 }
 
-section ul {
-    padding: 32px 32px;
-    line-height: 32px;
+section {
+    padding: 24px 0 0 24px;
 }
 
+section ul {
+    padding: 0 0 24px 0;
+    line-height: 32px;
+    box-sizing: border-box;
+}
 
 .scroll::before {
     content:"\25BE";
@@ -82,7 +86,7 @@ section ul li {
     line-height: 42px;
 }
 
-section ul li span.label {
+section ul li span {
     margin: 4px;
     padding: 4px 8px;
     border-radius: 10px;
@@ -93,6 +97,8 @@ section ul li span.label {
 .green {background-color:#5dc0a9;}
 .purple {background-color:#c9b0ee;}
 .orange {background-color: #f59e36;}
+.light_purple{background-color: #db63a0;}
+.acid_green{background-color: #afc92d;}
 /* label colors */
 
 span.done {
